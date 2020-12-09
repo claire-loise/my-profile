@@ -1,0 +1,143 @@
+.sidebar {
+  position: fixed;
+  width: 200px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+.page-content {
+  margin-left: 200px;
+}
+.sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+body {
+  background-image: url(images/marbre.jpg);
+  background-color: (230, 230, 230)
+  color: rgb(30, 30, 30);
+  font-family: 'Zilla Slab', serif;
+  font-size: 30px;
+  line-height: 1.6;
+  letter-spacing: 8px;
+  font-weight: 900;
+  text-align: justify;
+  text-decoration: none;
+}
+h1, h2 {
+ font-family: Georgia;
+}
+h1 {
+  color: #214252;
+  font-weight: 700;
+  letter-spacing: 10px;
+  font-size: 65px;
+  text-align: center;
+}
+
+h2 {
+  color: #1f6f8b;
+  text-align: center;
+  font-weight: bolder;
+}
+img {
+  width: 500px;
+  height: 500px;
+
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  color: black;
+  transition: 0.3s ease;
+  font-weight: 900;
+  font-family: Georgia;
+}
+
+a:hover {
+  color: grey;
+}
+
+p {
+  text-align: center;
+  color: #389393;
+}
+
+ul {
+  text-align: center;
+  color: rgba(0, 0, 0, 0);
+}
+
+
+/* Custom design with class */
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+.card-white {
+  background-color: white;
+  padding: 60px;
+  margin: 20px 0px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  border-radius: 8px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-black {
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 8px;
+}
+
+.btn-black:hover {
+  background-color: white;
+  color: black;
+}
+
+.list-inline {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: rgb(220, 220, 220);
+}
+
+.list-inline i:hover {
+  color: black;
+}
+
+/*design with id*/
+
+#introduction p {
+margin-bottom: 40px;
+}
+
